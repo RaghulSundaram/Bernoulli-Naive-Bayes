@@ -189,8 +189,6 @@ p_noCold_person' person traindata =
 
 --Classifying a new Person as having a cold or not having a cold
 ----------------------------------------------------------------
---(run this function on 'testperson' and 'traindata' or on 'testperson2' and 'traindata' to see the result)
-------------------------------------------------------------------------------------------------------------
 classifyNB :: Person -> [Person] -> IO ()
 classifyNB person traindata =
   putStrLn $
